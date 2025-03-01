@@ -1,0 +1,35 @@
+<header id="header" class="absolute top-0 left-0 z-50 w-full min-h-11">
+  <div
+    class="container flex pt-8 md:pt-[2.875rem] pb-4 xs:gap-[3.875rem] gap-4 items-center sm:mr-auto justify-between">
+    <a href="#" class="flex gap-[0.375rem] items-center shrink-0  hover:scale-105 duration-150 xs:mr-auto">
+      <img src="../../img/header/logo.svg" alt="logo" class="w-[1.5625rem] apsect-square shrink-0">
+      <div class="lowercase font-playfair-display-bold text-[heading2]">f.palace</div>
+    </a>
+    <button class="shrink-0">
+      <img src="../../img/header/search-icon.svg" alt="" class="w-[1.1875rem] aspect-square">
+    </button>
+    <button class="relative shrink-0">
+      <img src="../../img/header/basket-icon.svg" alt="" class="w-[1.25rem] h-[1.1875rem]">
+      <img src="../../img/header/basket-circle.svg" alt=""
+        class="w-[0.4375rem] h-[0.4375rem] absolute top-[1px] right-[-1.5px]">
+    </button>
+    <button class="shrink-0" id="header-btn-show-menu">
+      <img src="../../img/header/burger-btn.svg" alt="" class="w-[1.25rem] h-[1.0625rem]">
+    </button>
+  </div>
+  <div class="fixed top-0 left-0 w-full h-full overflow-auto duration-300 -translate-x-full text-heading2 bg-black/20"
+    id="header-menu">
+    <ul class="min-h-full px-4 pt-20 ml-auto space-y-4 bg-orange max-w-64" id="header-menu-list">
+      <li><a href="#" class="hover:underline">item1</a></li>
+      <li><a href="#" class="hover:underline">item2</a></li>
+      <li><a href="#" class="hover:underline">item3</a></li>
+      <li><a href="#" class="hover:underline">item4</a></li>
+      <li><a href="#" class="hover:underline">item5</a></li>
+    </ul>
+    <button class="fixed w-8 h-8 rounded-lg top-8 right-4 bg-orange" id="header-btn-close-menu">
+      <span class="absolute top-1/2 -translate-y-[1.5px] left-0 h-[3px] bg-heading2 w-full rotate-45 rounded-sm"></span>
+      <span
+        class="absolute top-1/2 -translate-y-[1.5px] left-0 h-[3px] bg-heading2 w-full -rotate-45 rounded-sm"></span>
+    </button>
+  </div>
+</header>
