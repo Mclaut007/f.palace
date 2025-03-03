@@ -22,6 +22,21 @@ module.exports = {
       "gilroy-semi-bold": "Gilroy-Semibold, sans-serif",
       "playfair-display-bold": "PlayfairDisplay-Bold, sans-serif",
     },
+    fontSize: {
+      xs: "0.75rem",
+      sm: "0.875rem",
+      base: "1rem",
+      lg: "1.125rem",
+      xl: "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.875rem",
+      "4xl": "2.25rem",
+      "5xl": "3rem",
+      "6xl": "3.75rem",
+      "7xl": "4.5rem",
+      "8xl": "6rem",
+      "9xl": "8rem",
+    },
     screens: {
       xxs: "25rem", // 400px
       xs: "30rem", // 480px
@@ -30,6 +45,7 @@ module.exports = {
       lg: "62rem", // 992px
       xl: "75rem", // 1200px
       xxl: "87.5rem", // 1400px
+      xxxl: "119rem", // 1910px
     },
     // screens: {
     //   xl: { max: "71.25rem" }, // 1140px
