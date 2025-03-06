@@ -64,18 +64,6 @@
 
 // import inputPhoneMask from "./modules/input-phone-mask.js";
 
-// ============= Меню-бургер ============= //
-
-import headerBurgerMenu from "./modules/header-burger-menu";
-
-headerBurgerMenu();
-
-// ==================== Popup-окна ===================== //
-
-import findAndActivatePopups from "./modules/popupAll";
-
-findAndActivatePopups();
-
 // ==================== Popup-окно ===================== //
 
 // import showHidePopup from "./modules/popup";
@@ -89,3 +77,21 @@ findAndActivatePopups();
 // import showHideFixedHeader from "./modules/hide-show-fixed-header";
 
 // showHideFixedHeader();
+
+// ============= Меню-бургер ============= //
+
+import headerBurgerMenu from "./modules/header-burger-menu";
+
+headerBurgerMenu();
+
+// ==================== Popup-окна ===================== //
+
+import findAndActivatePopups from "./modules/popupAll";
+
+findAndActivatePopups();
+
+// ==================== Testimonial-swiper ===================== //
+
+import testimonialSwiper from "./modules/testimonial-swiper";
+
+testimonialSwiper();

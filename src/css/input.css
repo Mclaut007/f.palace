@@ -1,3 +1,5 @@
+@import url("./../../node_modules/swiper/swiper-bundle.min.css");
+
 @font-face {
   font-family: "CircularStd-Book";
   src:
@@ -95,7 +97,7 @@
     flex-grow: 1;
   }
   .subtitle {
-    @apply mb-4 text-xl leading-4 md:text-2xl lg:mb-6 font-gilroy-semi-bold text-orange;
+    @apply mb-4 text-xl leading-4 md:text-2xl lg:mb-[1.375rem] font-gilroy-semi-bold text-orange;
   }
   .button {
     font-size: 1.125rem;
@@ -116,7 +118,9 @@
     box-shadow: 0 20px 40px 0 rgba(255, 148, 1, 0.2);
     transition: background-color 0.3s ease;
     @apply bg-orange;
-    @media (min-width: 62rem) {
+  }
+  @media (min-width: 62rem) {
+    .button {
       font-size: 1.25rem;
       min-height: 3.875rem;
       padding: 1rem 2rem;
@@ -185,17 +189,15 @@ body._lock {
   align-items: center;
 }
 .popup__content {
-  /* background-color: #fff; */
-  /* padding: 2rem; */
   width: 50rem;
   max-height: 100dvh;
   aspect-ratio: 16 / 9;
   position: relative;
-  iframe {
-    width: 100%;
-    height: 100%;
-    border-radius: 1rem;
-  }
+}
+.popup__content frame {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
 }
 .popup__close-btn {
   width: 2rem;
