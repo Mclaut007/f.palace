@@ -3201,6 +3201,14 @@ body._lock {
     vertical-align:-0.4rem
   }
 
+  .sm\:align-\[-0\.2rem\]{
+    vertical-align:-0.2rem
+  }
+
+  .sm\:align-\[-0\.3rem\]{
+    vertical-align:-0.3rem
+  }
+
   .sm\:text-\[2\.7rem\]{
     font-size:2.7rem
   }
